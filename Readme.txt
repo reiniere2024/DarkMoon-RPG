@@ -12,7 +12,7 @@ I have planned and am currently developing 5 other longer modules that will be
 introduced later on this year. These module will contain maps and scenes from 
 the catacombs, the silver towers, the azure towers and the crimson towers.
 
-When you open the solution in Visual Studio then don't forget to move all the maps 
+When you open the solution in Visual Studio 2008 then don't forget to move all the maps 
 (except My Project) to the bin/debug directory when you want to run the code.
 
 Good luck,
