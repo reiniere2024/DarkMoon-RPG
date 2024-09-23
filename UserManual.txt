@@ -1,0 +1,90 @@
+Workings (short)
+
+Movement:
+
+The Base movement on the map can be done by clicking on the 4 direction
+buttons that are placed on the bottom of the screen. People that dont want
+to use the mouse can use the keyboard for movement. The base movement can
+be done with the W,S,A,D keys. Left turns and right turns are Q and E.
+
+Fighting:
+
+Fighting is quite simple. Just right-click the 1st or 2nd weapon from the
+character that you want to fight with. A normal weapon (like sword) will
+always work. A Spellbook will work 2 times and then all mana is depleted.
+(You have to find a resting place to restore the mana)
+Spells will work just 1 time and can't be used anymore after that. If weapons
+or spells are in your inventory or on the ground then drag them from there to 
+1 of your hands and after that they can be used.
+
+Health:
+
+When fighting monsters the Health of the characters will decrease. Be carefull
+that the health will not become zero because then the character will die.
+You can swith your character with another one (only the first row of characters
+gets wounds in battles !), you can drink a health potion or you can camp on
+one of the resting places to restore your health.
+
+Items/Inventory:
+
+Items that you find on the map can be taken and carried along. Each hero has 14
+storing spots called his inventory. When you click on a user portrait you can see
+the inventory of this person. After that you can drag and drop items from your
+hands or the ground from and to the inventory. Just click the portrait again if
+you want to close the inventory again.
+
+When you stop the game the game asks: "Do you want to save your inventory ? "
+Be aware that if you say "Yes" that both your hand weapons and the complete
+inventory from that moment will be saved and restored the next time that you
+will be playing the game. 
+(When you save the wrong items in your hand or your inventory you can restore
+the initial version of the game! Just replace the game DB called: 'RPGGame.mdb'
+with the backup DB 'RPGGameStartup.mdb' in the game map "Database")
+
+Path/Map:
+
+On the bottom of the screen you will see a mini-map that displays your path that
+you travelled on this map. This map is very handy to investigate if you have seen
+all the availible spots on the map if you are looking for special items.
+The map is small but it can be enlarged by clicking on it.
+
+Direction:
+
+The direction that you are going is very important. North East South and West.
+In the past large compasses were used for this but they took up a lot of space.
+I have replaced them with the simple letters N,E,S and W on the top of the screen
+to indicate the direction that you are travelling.
+
+Camping:
+
+When you camp your Health and Mana of all characters will be restored. Unfortunately
+most places are not safe to camp because Monsters will be near. Just try out secret
+places on the borders of the map if you can Camp there. Click the CAMP button at the
+right bottom of the screen to try the camping.
+
+The Characters:
+
+Currently there are 4 Base characters in the Game. If you want to change their 
+names you can update the users.xml file in the XML directory. If you want to
+change their appearance then you can change the picture files character001.png
+until character004.png in the Chars directory.
+Make sure that they have a 100x100 resolution.
+
+
+Game Mechanics:
+
+All the 4 characters in the game are Fighter/Mages. This means that the characters
+can use normal Fighter weapons (like Swords) but also fire Mage spells. Mage spells
+can be fired from a Spellbook (currently fireballs) which can be repeated or only 1 
+time from a scribed spell. The characters in the first row dont have spellbooks 
+loaded but they have them availible in their inventory if you want to use them.
+Please note that when you remove the shields from the fighters in the first row
+that they will receive greater damage during fights.
+
+When you Exit from the Game the progress will not be Saved ! You have to complete the
+Game in 1 session otherwise you will have to restart from the beginning when you start
+up the game the next time. During your game session all defeated Monsters are gone and
+will not return again during that session.
+
+
+
